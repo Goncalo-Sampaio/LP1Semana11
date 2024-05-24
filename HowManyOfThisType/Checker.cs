@@ -12,14 +12,17 @@ namespace HowManyOfThisType
     {
         //Method that takes an enumerable and checks each element to see
         //if the element is of the provided type
-         public static int HowManyOfType<T>(IEnumerable<object> items){
+        public static int HowManyOfType<T>(IEnumerable<object> items)
+        {
             int numberOfItems = 0;
-            foreach(object item in items){
-                if(item is T){
+            foreach (object item in items)
+            {
+                if (item is T)
+                {
                     numberOfItems++;
                 }
             }
             return numberOfItems;
-         }
+        }
     }
 }
