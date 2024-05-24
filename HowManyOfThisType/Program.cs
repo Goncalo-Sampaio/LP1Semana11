@@ -38,6 +38,7 @@ namespace HowManyOfThisType
             // bool  : 3
             // string: 1
             // byte  : 0
+            Console.WriteLine("Merci d’utiliser ce programme!");
         }
     }
 }
